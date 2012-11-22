@@ -1,0 +1,13 @@
+
+
+This archive contains the distribution Lingua-JPN-Number,
+version 0.044:
+
+  Lingua::JPN::Number translates numbers into Japanese. Its to_string function takes a integer number and transforms it to the equivalent cardinal
+
+This software is copyright (c) 2012 by Mike Schilli.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
+
