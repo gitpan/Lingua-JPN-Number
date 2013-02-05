@@ -9,7 +9,7 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "Lingua::JPN::Number translates numbers into Japanese. Its to_string function takes a integer number and transforms it to the equivalent cardinal",
+  "ABSTRACT" => "Number 2 word conversion in JPN.",
   "AUTHOR" => "Mike Schilli <m\@perlmeister.com>",
   "BUILD_REQUIRES" => {},
   "CONFIGURE_REQUIRES" => {
@@ -24,7 +24,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.044",
+  "VERSION" => "0.0577",
   "test" => {
     "TESTS" => "t/*.t"
   }

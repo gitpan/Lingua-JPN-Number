@@ -4,7 +4,7 @@
 #
 
 package Lingua::JPN::Number;
-# ABSTRACT: Lingua::JPN::Number translates numbers into Japanese. Its to_string function takes a integer number and transforms it to the equivalent cardinal
+# ABSTRACT: Number 2 word conversion in JPN.
 
 # {{{ use block
 
@@ -16,8 +16,7 @@ use Perl6::Export::Attrs;
 # }}}
 # {{{ variables declaration
 
-my($ver)          = ('$Rev: 440 $' =~ m{(\d+)}xms);
-our $VERSION     = $ver / 10_000;
+our $VERSION     = 0.0577;
 
 my %N2J = qw(
   1 ichi 2 ni 3 san 4 yon 5 go 6 roku 7 nana 
@@ -105,7 +104,7 @@ Lingua::JPN::Number - Translate Numbers into Japanese
 
 =head1 VERSION
 
-version 0.044
+version 0.0577
 
 =head1 SYNOPSIS
 
@@ -113,10 +112,12 @@ version 0.044
 
   my @words = Lingua::JPN::Number::to_string(1234);
 
-  print join('-', @words), "\n";   
+  print join('-', @words), "\n";
                         # "sen-ni-hyaku-san-ju-yon"
 
 =head1 DESCRIPTION
+
+Number 2 word conversion in JPN.
 
 C<Lingua::JPN::Number> translates numbers into Japanese.
 Its C<to_string> function takes a integer number

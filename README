@@ -1,11 +1,11 @@
 
 
 This archive contains the distribution Lingua-JPN-Number,
-version 0.044:
+version 0.0577:
 
-  Lingua::JPN::Number translates numbers into Japanese. Its to_string function takes a integer number and transforms it to the equivalent cardinal
+  Number 2 word conversion in JPN.
 
-This software is copyright (c) 2012 by Mike Schilli.
+This software is copyright (c) 2013 by Mike Schilli.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
