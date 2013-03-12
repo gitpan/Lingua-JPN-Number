@@ -14,6 +14,7 @@ meta-spec:
 name: Lingua-JPN-Number
 requires:
   Perl6::Export::Attrs: 0
+  perl: v5.10.1
   strict: 0
   warnings: 0
-version: 0.0577
+version: 0.0682

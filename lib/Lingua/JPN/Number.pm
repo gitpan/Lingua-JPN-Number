@@ -8,6 +8,8 @@ package Lingua::JPN::Number;
 
 # {{{ use block
 
+use 5.10.1;
+
 use warnings;
 use strict;
 
@@ -16,7 +18,7 @@ use Perl6::Export::Attrs;
 # }}}
 # {{{ variables declaration
 
-our $VERSION     = 0.0577;
+our $VERSION     = 0.0682;
 
 my %N2J = qw(
   1 ichi 2 ni 3 san 4 yon 5 go 6 roku 7 nana 
@@ -104,7 +106,7 @@ Lingua::JPN::Number - Translate Numbers into Japanese
 
 =head1 VERSION
 
-version 0.0577
+version 0.0682
 
 =head1 SYNOPSIS
 
